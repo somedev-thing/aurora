@@ -3,8 +3,8 @@ export const siteConfig = {
   // Personal Information
   name: "Mackenzie",
   title: "Full-stack Developer (With a Love-Hate Relationship to JavaScript)",
-  email: "hello@mackenziedev.site",
-  domain: "mackenziedev.site",
+  email: "hello@example.com",
+  domain: "example.com",
   bio: "Building fast, clean, and occasionally over-engineered things since the post-COVID boredom era. Fluent in HTML, Android Studio, and chaos.",
 
   // Profile Images
@@ -24,13 +24,13 @@ export const siteConfig = {
   socials: [
     {
       name: "GitHub",
-      url: "https://github.com/mackenziedev",
+      url: "https://github.com/user",
       icon: "fa-brands fa-github",
     },
     {
       name: "Bluesky",
-      url: "https://bsky.app/profile/mackenziedev.bsky.social",
-      icon: "fa-solid fa-cloud", // fallback since no Bluesky icon
+      url: "https://bsky.app/profile/user.bsky.social",
+      icon: "fa-brands fa-bluesky, // fallback since no Bluesky icon
     },
   ],
 
@@ -129,3 +129,4 @@ export const siteConfig = {
     maxRepos: 6,
   },
 }
+
